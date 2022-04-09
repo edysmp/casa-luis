@@ -21,6 +21,7 @@
         "drupal/core-project-message": "^9.3",
         "drupal/core-recommended": "^9.3",
         "drupal/gin": "^3.0@beta",
+        "drupal/simple_gmap": "^3.0",
         "drush/drush": "^11.0"
     },
     "conflict": {

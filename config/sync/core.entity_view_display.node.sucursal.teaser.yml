@@ -1,0 +1,40 @@
+uuid: 7336b717-4c5d-4223-8014-73df354f944c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sucursal.body
+    - field.field.node.sucursal.field_direccion
+    - field.field.node.sucursal.field_galeria
+    - field.field.node.sucursal.field_horario
+    - field.field.node.sucursal.field_mapa
+    - field.field.node.sucursal.field_telefono
+    - node.type.sucursal
+  module:
+    - text
+    - user
+id: node.sucursal.teaser
+targetEntityType: node
+bundle: sucursal
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_direccion: true
+  field_galeria: true
+  field_horario: true
+  field_mapa: true
+  field_telefono: true

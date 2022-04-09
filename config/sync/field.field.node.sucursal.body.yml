@@ -1,0 +1,23 @@
+uuid: f608db30-8b60-4fd8-abe4-b6febb8abcc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.sucursal
+  module:
+    - text
+id: node.sucursal.body
+field_name: body
+entity_type: node
+bundle: sucursal
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary
