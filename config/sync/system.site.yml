@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 673db424-ede2-41f6-9085-4bf193f2ae94
+name: Casa-Luis
+mail: admin@example.com
+slogan: 'Los mejores carros de Nicaragua'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
