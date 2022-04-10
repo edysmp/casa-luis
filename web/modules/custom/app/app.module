@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for App module.
+ */
+
+use Drupal\app\FormOperations;
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_BASE_FORM_ID_alter().
+ */
+function app_form_node_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  FormOperations::nodeFormAlter($form, $form_state, $form_id);
+}
